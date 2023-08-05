@@ -17,7 +17,7 @@
         "api = Api(app)"
       ]
      
-      "cell_type": "code",
+      cell_type: "code",
       "source": [
         "movies_df= pd.read_csv('movies.csv')\n",
         "ratings_df= pd.read_csv('ratings.csv')"
