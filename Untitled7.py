@@ -1,38 +1,4 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyOX1FDHCUp3pIOIL9HjetAe",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/Byzed02/Byzed02/blob/main/Untitled7.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "mzKjO1ceCo5F"
-      },
-      "outputs": [],
+{,
       "source": [
         "total_points = st.slider(\"Number of points in spiral\", 1, 5000, 2000)\n",
         "num_turns = st.slider(\"Number of turns in spiral\", 1, 100, 9)\n",
@@ -54,6 +20,4 @@
         "    .mark_circle(color='#0068c9', opacity=0.5)\n",
         "    .encode(x='x:Q', y='y:Q'))"
       ]
-    }
-  ]
 }
