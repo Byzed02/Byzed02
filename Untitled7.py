@@ -1,4 +1,3 @@
-{
       "source": [
         "total_points = st.slider(\"Number of points in spiral\", 1, 5000, 2000)\n",
         "num_turns = st.slider(\"Number of turns in spiral\", 1, 100, 9)\n",
@@ -20,4 +19,3 @@
         "    .mark_circle(color='#0068c9', opacity=0.5)\n",
         "    .encode(x='x:Q', y='y:Q'))"
       ]
-}
