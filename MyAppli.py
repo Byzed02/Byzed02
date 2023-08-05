@@ -1,53 +1,4 @@
 {
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyPTOybgsk2W3rsQ7MX8Fo1N",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/Byzed02/Byzed02/blob/main/MyAppli.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "WUgIhg77X6Ee",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "outputId": "3eaeeeb3-1cf9-4836-cee4-39650263ba41"
-      },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stderr",
-          "text": [
-            "[nltk_data] Downloading package stopwords to /root/nltk_data...\n",
-            "[nltk_data]   Package stopwords is already up-to-date!\n",
-            "[nltk_data] Downloading package punkt to /root/nltk_data...\n",
-            "[nltk_data]   Package punkt is already up-to-date!\n"
-          ]
-        }
-      ],
       "source": [
         "import pandas as pd\n",
         "import numpy as np\n",
@@ -602,24 +553,5 @@
         "        \"recommanded_movies\": recommanded_movies\n",
         "    }\n",
         "\n"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "mN72Z91cJMaP",
-        "outputId": "f80cf2ed-5417-48e6-e364-e63f5c99f0e0"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "None\n"
-          ]
-        }
       ]
-    }
-  ]
 }
