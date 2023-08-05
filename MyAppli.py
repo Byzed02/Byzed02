@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNt8LO/okneZ1u/2UOTlDnY",
+      "authorship_tag": "ABX9TyPTOybgsk2W3rsQ7MX8Fo1N",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -472,7 +472,7 @@
       "cell_type": "code",
       "source": [
         "# Supprimer une colonne ou une ligne spécifique d'un dataframe\n",
-        "ratings_df= ratings_df.drop('timestamp',1) ## donne de l'axe selon lequel"
+        "ratings_df= ratings_df.drop('timestamp',1)"
       ],
       "metadata": {
         "colab": {
@@ -550,19 +550,11 @@
       "source": [
         "#Exemple d'utilisateur\n",
         "userInput= [\n",
-        "        {'title':'Breakfast Club, The', 'rating':input()},\n",
-        "        {'title':'Toy Story', 'rating':input()},\n",
-        "        {'title':'Jumanji', 'rating':input()},\n",
-        "        {'title':'PulpFiction', 'rating':input()},\n",
-        "        {'title':'Akira', 'rating':input()}\n",
-        "        ]\n",
-        "def to_float(value):\n",
-        "    try:\n",
-        "        return float(value)\n",
-        "    except ValueError:\n",
-        "        return None\n",
-        "converted_list = [{key: to_float(value) for key, value in d.items()} for d in userInput]\n",
-        "print(converted_list)"
+        "        {'title':'Breakfast Club, The', 'rating':5},\n",
+        "        {'title':'Toy Story', 'rating':2},\n",
+        "        {'title':'Jumanji', 'rating':3.5},\n",
+        "        {'title':'PulpFiction', 'rating':5},\n",
+        "        {'title':'Akira', 'rating':4.5}"
       ],
       "metadata": {
         "colab": {
