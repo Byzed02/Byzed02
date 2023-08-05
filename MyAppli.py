@@ -16,7 +16,6 @@
         "app = Flask(__name__)\n",
         "api = Api(app)"
       ]
-    },
     {
       "cell_type": "code",
       "source": [
