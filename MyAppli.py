@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMGDRlkFmy2ipvpUPF1LLla",
+      "authorship_tag": "ABX9TyNt8LO/okneZ1u/2UOTlDnY",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -55,10 +55,6 @@
         "import nltk\n",
         "from sklearn.feature_extraction.text import TfidfVectorizer\n",
         "from sklearn.metrics.pairwise import cosine_similarity\n",
-        "nltk.download('stopwords')\n",
-        "nltk.download('punkt')\n",
-        "from nltk import word_tokenize\n",
-        "from nltk.corpus import stopwords\n",
         "import pickle\n",
         "import pandas as pd\n",
         "import streamlit as st\n",
