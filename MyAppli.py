@@ -16,7 +16,7 @@
         "app = Flask(__name__)\n",
         "api = Api(app)"
       ]
-     {
+     
       "cell_type": "code",
       "source": [
         "movies_df= pd.read_csv('movies.csv')\n",
@@ -27,7 +27,6 @@
       },
       "execution_count": null,
       "outputs": []
-    },
     {
       "cell_type": "code",
       "source": [
